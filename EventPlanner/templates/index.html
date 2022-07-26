@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- CSS Linking -->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <!-- JS Linking -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/styles.css') }}">
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/assets/login.css') }}">
+    
+    <title>Homepage</title>
+  </head>
+  <body>
+   <!-- Navbar -->
+   <section id="Navigation-bar">
+    <!-- <nav class="Navbar"> -->
+      <nav class="navbar navbar-custom navbar-expand-lg fixed-top">
+        <div class="title">
+          <img class="logo" src="{{ url_for('static', filename='CSS/assets/logo.png') }}" alt="">
+          <a class="navbar-brand branding" style="margin-top: 5%;" href="">Evently</a>
+        </div>
+
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link navbar-elem" href="#Event"><button class="nav-btn">Explore</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-elem" href="{{ url_for('events_page') }}"><button class="nav-btn">Events</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-elem" href="{{ url_for('logout') }}"><button class="nav-btn" id="pricing">Logout</button></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <br>
+      <br>
+   </section>
+
+   <section id="first-container" style="background-image: url('{{ url_for('static', filename='CSS/assets/welcome.jpg')}}')">
+          <h1>Welcome to Evently,The planner</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, .</p>
+          <a class="nav-link navbar-elem" href="#Login1"><button class="nav-btn" id="pricing">Login > </button></a>
+    
+   </section>
+   
+
+
+   <section id="Event">
+    <h1 class="Event-Heading">Events</h1>
+      <div class="Event-Handling">
+      <h3>Event-Heading</h3>
+      <p style="padding-bottom: 10px;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, eligendi et corrupti maiores, molestias officia reiciendis deleniti illo eveniet rem perspiciatis dolor esse nihil. Deserunt eius magni officia expedita aliquid. 
+      </p>
+
+      <span class="Status">Status</span>
+      <span class="Time_Slot">Time Slot</span>
+      
+    
+      <br>
+      <br>
+      <br>
+        <span class="Accept">Accept</span>
+        <span class="Reject">Reject</span>
+    </section>
+
+
+  
+
+  <section class="Login" id="Login1">
+    <br style="height: 10px;">
+    <div>
+      <div class="left-login">
+          <form action=""  >
+
+              <div class="left-users">
+                  <img src="{{ url_for('static', filename='images/Student.jpg') }}" class="Student" alt="">   
+                  <p>Students/Commitee</p>
+              </div>
+
+              <div class="right-users">
+                  <img src="{{ url_for('static', filename='images/college.webp') }}" class="College" alt="">
+                  <p>College</p>
+              </div> 
+              <div>
+                  <p class="p-el">Username or Email:</p>
+                  <input type="email" class="input-el" required>
+                  <p class="p-el">Password:</p>
+                  <input type="password" class="input-el" required>
+                  <br>
+                  <button class="button-el">Submit</button>
+              </div>
+          </form>
+      </div>
+      <div class="right-image" height="125%">
+          <!-- <p id="r-i-text-white">hi</p> -->
+          <img src="{{ url_for('static', filename='images/login.jpg') }}" alt="" width="95%" id="right-image">
+      </div>
+  </div>
+
+  </section>
+
+  
+
+
+
+
+
+
+
+
+  
+  </body>
+</html>

@@ -1,0 +1,105 @@
+.Login {
+    background-color: #FCE2DB;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+#event-heading {
+    font-size: 2rem;
+}
+
+form {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.logo-el {
+    margin-top: 35px;
+}
+
+.p-el {
+    font-size: 20px;
+}
+
+.input-el {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.input-el:focus {
+    outline-style: none;
+}
+
+.button-el {
+    padding: 8px;
+    font-size: 18px;
+    width: 150px;
+    margin-top: 15px;
+    border-radius: 21px;
+    border: 1px solid #7A4495;
+    background-color: #7A4495;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.button-el:hover {
+    color: #7A4495;
+    background-color: white;
+}
+
+.Student{
+    width:150px;
+    height:150px;
+}
+
+.College{
+    width:150px;
+    height:150px;
+}
+
+.left-users {
+    margin-bottom: 8%;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 40%;
+    float: left;
+    border-radius: 5px;
+    border: 2px solid #7A4495;
+}
+
+
+.right-users {
+    margin-bottom: 8%;
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 40%;
+    float: right;
+    border-radius: 5px;
+    border: 2px solid #7A4495;
+}
+
+.left-login {
+    width: 35%;
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 10px;
+    
+}
+.right-image {
+    margin-right: 1.5%;
+    width: 60%;
+    float: right;
+    background-color: white;
+    vertical-align: middle;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+}
+
+#right-image {
+    padding-top: 7.4%;
+    padding-bottom: 5.4%;
+}
