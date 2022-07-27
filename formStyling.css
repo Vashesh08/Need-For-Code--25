@@ -1,0 +1,52 @@
+#Request-Form {
+    text-align: center;
+    border-radius: 20px;
+    width: 40%;
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#reqForm {
+    border-radius: 40px;
+}
+
+.input-elm {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.input-elm:focus {
+    outline-style: none;
+}
+
+#heading {
+    padding-top: 10%;
+}
+
+label {
+    font-size: 20px;
+}
+
+#form-submit {
+    border: 1px solid #7A4495;
+    background-color: #7A4495;
+    color: #FCE2DB;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 18px;
+    margin-bottom: 7%;
+    width: 30%;
+}
+
+#form-submit:hover {
+    border: 1px solid #7A4495;
+    color: #7A4495;
+    background-color: #FCE2DB;
+}
+
+#st{
+    margin-right: 2%;
+}
